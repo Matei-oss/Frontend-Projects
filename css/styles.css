@@ -11,7 +11,7 @@ body {
 
 .suvs {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 5% 0 0 5%;
+    border-radius: 3% 0 0 3%;
 }
 
 .sedans {
@@ -20,7 +20,7 @@ body {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 5% 5% 0;
+    border-radius: 0 3% 3% 0;
 }
 
 .icons {
@@ -32,7 +32,7 @@ body {
 button {
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 10%;
+    margin-left: 2.5rem;
 }
 
 .paragraph-title {
@@ -49,9 +49,5 @@ button {
     padding-left: 10%;
     color: hsl(0, 0%, 95%);
     font-family: "Lexend Deca";
-    font-size: 1rem;
-}
-
-.car-card {
-    position
+    font-size: 15px;
 }
