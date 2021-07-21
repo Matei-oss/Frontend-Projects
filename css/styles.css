@@ -53,3 +53,17 @@ button {
     line-height: 2;
     width: 80%;
 }
+
+@media (max-width: 600px) {
+    .suvs {
+        border-radius: 3% 3% 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 3% 3%;
+    }
+}
+
+.attribution {
+    margin-top: 9%;
+    text-align: center;
+}
