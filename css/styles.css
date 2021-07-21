@@ -50,4 +50,6 @@ button {
     color: hsl(0, 0%, 95%);
     font-family: "Lexend Deca";
     font-size: 15px;
+    line-height: 2;
+    width: 80%;
 }
