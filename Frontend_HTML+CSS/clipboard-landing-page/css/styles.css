@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.bg-header-desktop {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.c-logo {
+    width: 10%;
+}
+
+.logo-col {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header-col {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.header-text {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.header-desc {
+    margin-right: 26.3%;
+    margin-left: 26.3%;
+}
+
+.download-button {
+    margin-top: 3%;
+}
+
+.ios-button {
+    text-align: right;
+}
+
+.btn {
+    border-radius: 25px / 25px;
+    border: 0px;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.ios-btn:hover {
+    background-color: hsl(201, 11%, 66%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac-btn:hover {
+    background-color: hsl(201, 11%, 66%);
+}
