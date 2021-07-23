@@ -16,11 +16,35 @@ body {
 
 .left-section {
     background-color: hsl(228, 56%, 26%);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 15px 100px 15px 15px;
 }
 
 .right-section {
     background-color: hsl(228, 56%, 26%);
     margin-left: 3%;
+}
+
+.logo-div {
+    margin-top: 6%;
+    margin-left: 6%
+}
+
+.icons-div {
+    margin-top: 8%;
+    margin-left: 6%;
+    margin-bottom: 6%;
+    width: 150px;
+}
+
+.small-icon {
+    width: 150%;
+}
+
+.icon-col {
+    background-color: hsl(229, 57%, 11%);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 15%;
 }
