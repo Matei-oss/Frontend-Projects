@@ -61,3 +61,17 @@ body {
 .mac-btn:hover {
     background-color: hsl(201, 11%, 66%);
 }
+
+.snippets-header-col {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.snippets-desc-col {
+    margin-top: 3%;
+}
+
+.snippets-desc {
+    margin-right: 26.3%;
+    margin-left: 26.3%;
+}
