@@ -91,3 +91,20 @@ body {
 .monitor-header {
     margin-top: 5%;
 }
+
+.devices-col {
+    text-align: center;
+}
+
+.devices-image {
+    margin-top: 3%;
+}
+
+.under-tablet-col {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.tablet-header {
+    text-align: center;
+}
