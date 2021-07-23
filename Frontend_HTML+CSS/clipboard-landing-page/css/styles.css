@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    overflow: hidden;
 }
 
 .bg-header-desktop {
@@ -74,4 +73,21 @@ body {
 .snippets-desc {
     margin-right: 26.3%;
     margin-left: 26.3%;
+}
+
+.monitor-col {
+    margin-top: 5%;
+    text-align: right;
+}
+
+.monitor-text-col {
+    margin-top: 7%;
+}
+
+.monitor-text {
+    margin-right: 60%;
+}
+
+.monitor-header {
+    margin-top: 5%;
 }
