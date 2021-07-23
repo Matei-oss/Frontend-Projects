@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(229, 57%, 11%);
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    z-index: -1;
+}
+
+.middle-section {
+    margin-top: 25%;
+}
+
+.left-section {
+    background-color: hsl(228, 56%, 26%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.right-section {
+    background-color: hsl(228, 56%, 26%);
+    margin-left: 3%;
+}
