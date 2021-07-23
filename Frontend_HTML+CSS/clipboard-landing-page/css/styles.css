@@ -101,10 +101,40 @@ body {
 }
 
 .under-tablet-col {
-    margin-top: 3%;
+    margin-top: 2%;
     text-align: center;
 }
 
 .tablet-header {
     text-align: center;
+}
+
+.blacklist-col {
+    text-align: center;
+}
+
+.text-col {
+    text-align: center;
+}
+
+.preview-col {
+    text-align: center;
+}
+
+.features-col {
+    margin-top: 5%;
+}
+
+.features-icon {
+    width: 15%;
+}
+
+.features-text-col {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.features-text {
+    margin-top: 5%;
+    margin-left: 10%;
 }
