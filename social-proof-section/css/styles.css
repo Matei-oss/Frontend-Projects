@@ -1,0 +1,118 @@
+body {
+    overflow: hidden;
+}
+
+.card {
+    border: 0px;
+}
+
+.top-image {
+    position: absolute;
+    margin-top: -10%;
+}
+
+.bottom-image {
+    position: absolute;
+    width: 70%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.top-section {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.top-heading {
+    color: hsl(300, 43%, 22%);
+    font-family: "Spartan";
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.top-description {
+    color: hsl(303, 10%, 53%);
+    font-family: "Spartan";
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.review-div {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px / 10px;
+    width: 50%;
+}
+
+.review {
+    text-align: left;
+    padding: 5%;
+    color: hsl(300, 43%, 22%);
+    font-family: "Spartan";
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.middle-review {
+    margin-left: 15%;
+}
+
+.right-review-top {
+    margin-left: 30%;
+}
+
+.bottom-section {
+    margin-left: 10.5%;
+    margin-right: 18%;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px / 10px;
+}
+
+.left-review {
+    margin-top: 5%;
+}
+
+.central-review {
+    margin-top: 20%;
+}
+
+.right-review {
+    margin-top: 35%;
+}
+
+.thumbnail-image {
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.card-text-top {
+    margin-right: 41%;
+    margin-top: 3.5%;
+}
+
+.name {
+    font-family: "Spartan";
+    font-weight: 700;
+}
+
+.buyer {
+    font-family: "Spartan";
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+}
+
+.text-review {
+    margin-left: 3%;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 0.8rem;
+}

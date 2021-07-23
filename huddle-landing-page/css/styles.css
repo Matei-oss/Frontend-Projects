@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    overflow: hidden;
+}
+
+h1 {
+    width: 50%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 5%;
+}
+
+p {
+    width: 70%;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    margin-top: 5%;
+    font-weight: 400;
+}
+
+.background-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.logo {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.mockups {
+    width: 90%;
+}
+
+.row {
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.text-section {
+    width: 50%;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 5%;
+    border-radius: 35px / 35px;
+    width: 25%;
+    height: 10%;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    border: 0px;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.logo-social {
+    color: white;
+}
