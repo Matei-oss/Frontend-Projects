@@ -150,3 +150,54 @@ body {
 .company-col {
     margin-right: 3%;
 }
+
+.mobile-header {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.mobile-header-paragraph {
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+}
+
+.ios-button-mobile {
+    text-align: center;
+}
+
+.mobile-section {
+    display: none;
+}
+
+.contact-section {
+    margin-top: 5%;
+    background-color: hsl(201, 11%, 66%);
+    display: none;
+}
+
+.contact-header {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#footer {
+    background-color: hsl(201, 11%, 66%);
+    text-align: center;
+    display: none;
+}
+
+.social-media-icons {
+    margin: 30px;
+}
+
+@media (max-width: 375px) {
+    #footer {
+        display: block;
+    }
+    .mobile-section {
+        display: block;
+    }
+    .contact-section {
+        display: block;
+    }
+}
