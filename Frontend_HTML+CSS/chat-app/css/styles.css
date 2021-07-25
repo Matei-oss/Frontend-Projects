@@ -1,0 +1,6 @@
+.left-side {
+    height: 800px;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0 0 350px 350px;
+    margin-left: -100px;
+}
