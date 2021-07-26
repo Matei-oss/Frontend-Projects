@@ -3,14 +3,21 @@ body {
     background-color: hsl(270, 20%, 96%);
 }
 
+.background {
+    z-index: -1;
+    position: relative;
+}
+
 .row {
     margin-left: 0px;
     margin-right: 0px;
+    z-index: -1;
 }
 
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+    z-index: -1;
 }
 
 .left-side {
@@ -31,4 +38,18 @@ body {
     border-radius: 350px 350px 0 0;
     margin-right: -100px;
     opacity: 0.2;
+}
+
+.center-side {
+    z-index: 1;
+    margin-bottom: 14%;
+}
+
+.phone {
+    background-color: white;
+    margin-top: 50%;
+    height: 70%;
+    margin-left: -20%;
+    margin-right: 35%;
+    border-radius: 50px;
 }
