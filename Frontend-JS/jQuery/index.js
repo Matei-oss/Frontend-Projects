@@ -1,3 +1,3 @@
-$("body").keypress(function(event) {
-    $("h1").html(event.key)
+$("button").on("click", function() {
+    $("h1").fadeOut();
 });
