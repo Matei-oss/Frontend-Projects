@@ -3,6 +3,6 @@
 // });
 
 $(".accordion-button").on("click", function() { // attach to Click event
-    $(".accordion-button").removeClass("active"); // reset all <li> to no active class
-    $(this).addClass("active"); // add active class to this <li> only
+    $(".accordion-button").removeClass("active"); // reset active class for all elements
+    $(this).addClass("active"); //set active class only for this element
 });
