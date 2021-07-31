@@ -16,6 +16,10 @@ body {
     overflow: hidden;
 }
 
+.right-section {
+    padding-left: 40px;
+}
+
 .center-section {
     background-color: hsl(240, 5%, 91%);
     border-radius: 20px/20px;
