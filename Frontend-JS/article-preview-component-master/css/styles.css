@@ -94,6 +94,7 @@ p {
 }
 
 .share {
+    display: none;
     position: absolute;
     margin-left: 420px;
     margin-top: -50px;
@@ -115,10 +116,20 @@ p {
 .share:after {
     content: " ";
     position: absolute;
-    right: 30px;
+    right: 150px;
     bottom: -15px;
     border-top: 15px solid hsl(217, 19%, 35%);
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     border-bottom: none;
+}
+
+@media (max-width: 375px) {
+    .drawers-image {
+        border-radius: 25px 25px 0 0;
+        width: 100%;
+    }
+    .right-section {
+        border-radius: 0 0 25px 25px;
+    }
 }
