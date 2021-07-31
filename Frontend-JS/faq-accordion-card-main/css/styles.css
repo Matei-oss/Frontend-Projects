@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: "Kumbh Sans";
 }
 
 .vertical-center {
@@ -59,10 +60,12 @@ body {
 }
 
 .accordion {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding-right: 80px;
     border: 0px solid;
     background-color: hsl(240, 5%, 91%);
+    outline: none;
 }
 
 .accordion-item {
@@ -80,6 +83,21 @@ body {
     background-color: hsl(240, 5%, 91%);
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: hsl(240, 5%, 91%);
+    color: hsl(237, 12%, 33%);
+}
+
+.accordion-button:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
 h1 {
     margin-top: 60px;
+    font-weight: 700;
 }
