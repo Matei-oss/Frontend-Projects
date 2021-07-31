@@ -9,6 +9,7 @@
 
 body {
     background-color: hsl(212, 23%, 69%);
+    font-family: "Manrope";
 }
 
 .left-section {
@@ -26,11 +27,68 @@ body {
     width: 90%;
     max-height: 50%;
     border-radius: 25px 0 0 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .right-section {
+    object-fit: contain;
     background-color: hsl(210, 46%, 95%);
     padding-right: 0;
     padding-left: 0;
     border-radius: 0 25px 25px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+h1 {
+    color: hsl(217, 19%, 35%);
+}
+
+p {
+    display: inline-block;
+}
+
+.description-test {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: hsl(214, 17%, 51%);
+}
+
+.thumbnail {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.bottom-section {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.thumbnail-col {
+    width: 20%;
+}
+
+.name {
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.michelle-data {
+    margin-left: -20px;
+}
+
+.share-icon {
+    text-align: right;
+}
+
+.fas {
+    margin-top: 10px;
 }
