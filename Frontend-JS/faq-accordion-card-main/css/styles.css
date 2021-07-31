@@ -96,12 +96,20 @@ body {
     color: hsl(14, 88%, 65%);
 }
 
-.accordion-button:focus {
+.accordion-button:enabled {
     box-shadow: none;
     border-color: rgba(0, 0, 0, .125);
 }
 
+.accordion-button:active {
+    font-weight: 700;
+}
+
 h1 {
     margin-top: 60px;
+    font-weight: 700;
+}
+
+.active {
     font-weight: 700;
 }
