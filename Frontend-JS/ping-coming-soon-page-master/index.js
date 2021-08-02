@@ -1,4 +1,4 @@
-$(".form-mail").validate({
+$(".form-control").validate({
     rules: {
         emailfield: {
             required: true,

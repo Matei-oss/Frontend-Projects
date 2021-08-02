@@ -78,3 +78,7 @@ body {
 .title {
     font-size: 3rem;
 }
+
+.email-row {
+    text-align: center;
+}
