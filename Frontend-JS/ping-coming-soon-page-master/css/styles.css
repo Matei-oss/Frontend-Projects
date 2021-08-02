@@ -82,3 +82,13 @@ body {
 .email-row {
     text-align: center;
 }
+
+@media (max-width: 375px) {
+    .form-control {
+        float: 0;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+}
