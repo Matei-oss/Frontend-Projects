@@ -7,3 +7,14 @@
 .subscribe-header {
     text-align: center;
 }
+
+.btn {
+    border-radius: 25px/25px;
+    width: 40%;
+}
+
+.form-control {
+    border-radius: 25px/25px;
+    width: 40%;
+    height: 100%;
+}
