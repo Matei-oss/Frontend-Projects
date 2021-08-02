@@ -1,0 +1,9 @@
+.header-col {
+    margin-top: 10%;
+}
+
+.header-col,
+.soon-header,
+.subscribe-header {
+    text-align: center;
+}
