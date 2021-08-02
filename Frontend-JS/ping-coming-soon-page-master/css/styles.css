@@ -1,5 +1,9 @@
+body {
+    font-family: "Libre Franklin";
+}
+
 .header-col {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .header-col,
@@ -10,11 +14,67 @@
 
 .btn {
     border-radius: 25px/25px;
-    width: 40%;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .form-control {
     border-radius: 25px/25px;
-    width: 40%;
+    width: 70%;
     height: 100%;
+    float: right;
+}
+
+.soon-header {
+    margin-top: 5%;
+}
+
+.soon-text {
+    font-size: 4rem;
+}
+
+.email-col,
+.button-col {
+    margin-top: 3%;
+}
+
+.subscribe-header {
+    margin-top: 2%;
+}
+
+.image-dashboard {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.illustration-dashboard {
+    width: 80%;
+}
+
+.social-media-icons {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.fab {
+    margin-left: 3%;
+    color: hsl(223, 100%, 88%);
+}
+
+.fab:hover {
+    color: hsl(223, 87%, 63%);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.soon,
+.title {
+    font-weight: 700;
+}
+
+.title {
+    font-size: 3rem;
 }
