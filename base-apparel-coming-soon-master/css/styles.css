@@ -1,0 +1,8 @@
+body {
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-size: inherit;
+    background-position: 8rem;
+    height: 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
