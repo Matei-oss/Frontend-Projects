@@ -11,9 +11,28 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.description {
+    font-weight: 500;
+}
+
+h1,
+.description {
+    color: white;
+}
+
 .left-section,
 .right-section {
     width: 50%;
+}
+
+span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
 }
 
 .right-section {
