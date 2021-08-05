@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -34,18 +37,22 @@
                 <p class="top-section-text"><span class="top-text">Try it free 7 days </span>then $20/mo. thereafter</p>
             </div>
             <div class="form-background">
-                <form>
+                <form name="form-trial">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="First Name">
+                        <p class="error-message">First Name cannout be empty</p>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Last Name">
+                        <p class="error-message">Last Name cannot be empty</p>
                     </div>
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Email address">
+                        <p class="error-message">Looks like this is not an email</p>
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control" placeholder="Password">
+                        <p class="error-message">Password cannot be empty</p>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Claim your free trial!</button>

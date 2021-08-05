@@ -111,6 +111,18 @@ span {
     font-size: 700;
 }
 
+.error-message {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 3rem;
+    visibility: hidden;
+}
+
+.error-input {
+    border-color: red;
+}
+
 @media (max-width:375px) {
     .container {
         flex-direction: column;
