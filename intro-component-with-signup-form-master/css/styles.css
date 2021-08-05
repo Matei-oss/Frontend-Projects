@@ -81,6 +81,7 @@ span {
 
 .terms-cond {
     font-size: 0.8rem;
+    color: hsl(246, 25%, 77%);
 }
 
 .top-section {
@@ -103,4 +104,43 @@ span {
 
 .top-section-text {
     padding-top: 1.3rem;
+}
+
+.form-control::placeholder {
+    color: hsl(249, 10%, 26%);
+    font-size: 700;
+}
+
+@media (max-width:375px) {
+    .container {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .top-section {
+        width: 190%;
+    }
+    .form-background {
+        width: 190%;
+    }
+    .left-section {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .description {
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .top-section-text {
+        padding-top: 0.8rem;
+    }
+    .form-background {
+        padding-bottom: 0;
+    }
+    .terms-cond {
+        padding-bottom: 1rem;
+    }
 }
