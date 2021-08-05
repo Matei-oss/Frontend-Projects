@@ -25,9 +25,17 @@ h1,
     color: white;
 }
 
+.left-section {
+    margin-right: 1rem;
+}
+
 .left-section,
 .right-section {
     width: 50%;
+}
+
+.right-section {
+    padding-top: 2rem;
 }
 
 span {
@@ -35,14 +43,14 @@ span {
     font-weight: 700;
 }
 
-.right-section {
+.form-background {
     margin-left: 1rem;
     padding: 0;
     background: white;
     justify-content: space-between;
     border-radius: 15px/15px;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     box-shadow: 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -62,4 +70,37 @@ span {
 .btn {
     background-color: hsl(154, 59%, 51%);
     border-color: hsl(154, 59%, 51%);
+    box-shadow: 0 3px hsl(154, 59%, 41%);
+}
+
+.btn:hover {
+    background-color: hsl(154, 59%, 80%);
+    border-color: hsl(154, 59%, 80%);
+    box-shadow: 0 3px hsl(154, 59%, 51%);
+}
+
+.terms-cond {
+    font-size: 0.8rem;
+}
+
+.top-section {
+    text-align: center;
+    margin-left: 1rem;
+    padding: 0;
+    background: white;
+    border-radius: 15px/15px;
+    margin-bottom: 1.5rem;
+    height: 4rem;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.top-text {
+    font-size: 600;
+    color: white;
+}
+
+.top-section-text {
+    padding-top: 1.3rem;
 }
