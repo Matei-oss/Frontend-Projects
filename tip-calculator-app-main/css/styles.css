@@ -52,6 +52,13 @@ body {
     font-size: 2rem;
     border-radius: 10px/10px;
     text-align: center;
+    background-color: hsl(185, 41%, 84%);
+    border: 0px;
+}
+
+.custom-tip:focus {
+    outline-width: 0px;
+    box-shadow: 0 0 3pt 2pt hsl(172, 67%, 45%);
 }
 
 .text,
@@ -74,7 +81,7 @@ body {
 .reset-button {
     justify-content: center;
     display: flex;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .tip-number {
@@ -107,6 +114,16 @@ p {
     border: 0px;
 }
 
+.tip-percent:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.tip-percent:active {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
 .tip-percent-u {
     background-color: hsl(185, 41%, 84%);
     border: 0px;
@@ -117,4 +134,17 @@ p {
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
     border: 0px;
+}
+
+.tip-percent-r:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.right-header {
+    color: hsl(185, 41%, 84%);
+    font-size: 1.5rem;
+}
+
+.right-subtext {
+    color: hsl(186, 14%, 43%);
 }
