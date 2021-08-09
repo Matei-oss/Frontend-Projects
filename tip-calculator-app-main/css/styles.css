@@ -1,12 +1,7 @@
 body {
     background-color: hsl(185, 41%, 84%);
+    font-family: "Space Mono";
 }
-
-
-/* .container {
-    display: flex;
-    justify-content: center;
-} */
 
 .logo-col {
     margin-top: 7rem;
@@ -17,12 +12,17 @@ body {
 
 .calculator-row {
     margin-top: 3rem;
+    background-color: white;
 }
 
 .first-row-button,
 .second-row-button {
     display: flex;
     justify-content: space-evenly;
+}
+
+.second-row-button {
+    margin-top: 3rem;
 }
 
 .input-dollar {
@@ -33,4 +33,17 @@ body {
 .input-person {
     background: url("../images/icon-person.svg") 0.2rem 0.2rem;
     background-repeat: no-repeat;
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    width: 25%;
+}
+
+.text {
+    margin-top: 2rem;
+}
+
+.left-section {
+    padding-left: 2rem;
 }
