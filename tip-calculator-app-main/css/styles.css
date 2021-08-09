@@ -13,12 +13,13 @@ body {
 .calculator-row {
     margin-top: 3rem;
     background-color: white;
+    border-radius: 30px/30px;
 }
 
 .first-row-button,
 .second-row-button {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .second-row-button {
@@ -38,6 +39,8 @@ body {
 
 .btn {
     width: 25%;
+    height: 4rem;
+    font-size: 2rem;
 }
 
 .text {
@@ -46,4 +49,28 @@ body {
 
 .left-section {
     padding-left: 2rem;
+}
+
+.right-box {
+    background-color: hsl(183, 100%, 15%);
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    height: 85%;
+    border-radius: 30px/30px;
+}
+
+.reset-button {
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.tip-number {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 4rem;
 }
