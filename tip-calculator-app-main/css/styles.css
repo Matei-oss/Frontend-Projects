@@ -1,0 +1,30 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+} */
+
+.logo-col {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calculator-row {
+    margin-top: 3rem;
+}
+
+.first-row-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-row-button {
+    display: flex;
+    justify-content: space-evenly;
+}
