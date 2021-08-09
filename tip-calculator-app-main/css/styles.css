@@ -46,7 +46,16 @@ body {
     border-radius: 10px/10px;
 }
 
-.text {
+.custom-tip {
+    width: 25%;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 10px/10px;
+    text-align: center;
+}
+
+.text,
+.reset-row {
     margin-top: 2rem;
 }
 
@@ -56,9 +65,9 @@ body {
 
 .right-box {
     background-color: hsl(183, 100%, 15%);
-    margin-top: 2rem;
     margin-right: 1.5rem;
-    height: 85%;
+    height: 80%;
+    margin-top: 4.3rem;
     border-radius: 30px/30px;
 }
 
@@ -73,7 +82,7 @@ body {
     padding-left: 2rem;
 }
 
-input {
+.amount-input {
     width: 100%;
     height: 4rem;
     border-radius: 10px/10px;
@@ -84,7 +93,7 @@ input {
     color: hsl(183, 100%, 15%);
 }
 
-input:focus {
+.amount-input:focus {
     outline-width: 0px;
     box-shadow: 0 0 3pt 2pt hsl(172, 67%, 45%);
 }
@@ -100,5 +109,12 @@ p {
 
 .tip-percent-u {
     background-color: hsl(185, 41%, 84%);
+    border: 0px;
+}
+
+.tip-percent-r {
+    width: 90%;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
     border: 0px;
 }
