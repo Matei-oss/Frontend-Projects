@@ -19,12 +19,18 @@ body {
     margin-top: 3rem;
 }
 
-.first-row-button {
+.first-row-button,
+.second-row-button {
     display: flex;
     justify-content: space-evenly;
 }
 
-.second-row-button {
-    display: flex;
-    justify-content: space-evenly;
+.input-dollar {
+    background: url("../images/icon-dollar.svg") 0.2rem 0.2rem;
+    background-repeat: no-repeat;
+}
+
+.input-person {
+    background: url("../images/icon-person.svg") 0.2rem 0.2rem;
+    background-repeat: no-repeat;
 }
