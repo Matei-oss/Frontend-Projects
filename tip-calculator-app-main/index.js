@@ -11,12 +11,16 @@ $('.btn.tip-percent-r').click(function() {
 });
 
 //calculate tip amounts per person and total
-$('.amount-input.input-person,.btn').on('click', function() {
-    var tipPercentage = parseInt($(this).val());
+$('.amount-input.input-person,.btn,.custom-input').on('click', function() {
+    if ($('.custom-tip').val().length === 0) {
+        var tipPercentage = parseInt($(this).val());
+    } else {
+        var tipPercentage = $('.custom-tip').val();
+    }
     var billAmount = parseInt($('.amount-input.input-dollar').val());
     var numberOfPeople = parseInt($('.amount-input.input-person').val());
-    var tipAmount = Math.floor(((billAmount / 100) * tipPercentage) / numberOfPeople);
-    var tipTotal = Math.floor(tipAmount * numberOfPeople);
+    var tipAmount = ((billAmount / 100) * tipPercentage) / numberOfPeople;
+    var tipTotal = tipAmount * numberOfPeople;
     $('.result')[0].innerHTML = "$" + tipAmount;
     $('.result')[1].innerHTML = "$" + tipTotal;
 });
