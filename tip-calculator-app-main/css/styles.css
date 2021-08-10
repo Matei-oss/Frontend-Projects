@@ -133,7 +133,11 @@ p {
     width: 90%;
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
-    outline-style: none;
+    border: 0;
+}
+
+.tip-percent-r:focus {
+    box-shadow: 0 0 3pt 2pt hsl(172, 67%, 45%);
 }
 
 .tip-percent-r:hover {
