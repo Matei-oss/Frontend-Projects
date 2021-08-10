@@ -158,3 +158,9 @@ p {
     color: hsl(183, 100%, 15%) !important;
     box-shadow: none !important;
 }
+
+.result {
+    font-size: 2rem;
+    color: hsl(172, 67%, 45%);
+    font-weight: 700;
+}
