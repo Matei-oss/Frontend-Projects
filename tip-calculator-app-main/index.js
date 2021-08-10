@@ -23,5 +23,6 @@ $('.amount-input.input-person,.btn').on('click', function() {
 
 //reloads page when reset button is clicked
 $('.tip-percent-r').click(function() {
-    location.reload();
+    $('.result')[0].innerHTML = "$" + 0;
+    $('.result')[1].innerHTML = "$" + 0;
 });

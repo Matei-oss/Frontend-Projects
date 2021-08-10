@@ -164,3 +164,9 @@ p {
     color: hsl(172, 67%, 45%);
     font-weight: 700;
 }
+
+@media (min-width: 400px) {
+    .reset-button {
+        margin-bottom: 5rem;
+    }
+}
