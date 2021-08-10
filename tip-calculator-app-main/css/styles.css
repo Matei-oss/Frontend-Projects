@@ -125,7 +125,7 @@ p {
 }
 
 .tip-percent-u {
-    background-color: hsl(185, 41%, 84%);
+    background-color: hsl(185, 87+ 41%, 84%);
     border: 0px;
 }
 
@@ -133,7 +133,7 @@ p {
     width: 90%;
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
-    border: 0px;
+    outline-style: none;
 }
 
 .tip-percent-r:hover {
