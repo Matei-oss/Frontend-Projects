@@ -152,3 +152,9 @@ p {
 .right-subtext {
     color: hsl(186, 14%, 43%);
 }
+
+.onclick {
+    background-color: hsl(172, 67%, 45%) !important;
+    color: hsl(183, 100%, 15%) !important;
+    box-shadow: none !important;
+}
