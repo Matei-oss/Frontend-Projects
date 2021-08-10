@@ -25,7 +25,7 @@ $('.amount-input.input-person,.btn,.custom-input').on('click', function() {
     $('.result')[1].innerHTML = "$" + tipTotal;
 });
 
-//reloads page when reset button is clicked
+//resets fields when reset button is clicked
 $('.tip-percent-r').click(function() {
     $('.result')[0].innerHTML = "$" + 0;
     $('.result')[1].innerHTML = "$" + 0;
