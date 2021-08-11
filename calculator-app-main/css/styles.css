@@ -1,9 +1,11 @@
 body {
     background-color: hsl(222, 26%, 31%);
+    font-family: "Spartan";
+    font-weight: 700;
 }
 
 .container {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .result-col {
@@ -17,6 +19,9 @@ body {
     height: 4rem;
     border-radius: 15px/15px;
     box-shadow: 0 3px grey;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    font-size: 2rem;
 }
 
 .buttons-col {
@@ -34,4 +39,24 @@ body {
 
 .result {
     display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: 30rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.reset-button,
+.del-button {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+
+.eq-button {
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+}
+
+.calc {
+    font-size: 3rem;
+    color: white;
 }
